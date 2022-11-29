@@ -1,0 +1,118 @@
+
+
+.main_div{
+    display:flex;
+}
+.main_divv{
+    
+    align-content:center;
+}
+
+.head_div{
+    align-content: center;
+}
+
+.nv_bar {
+    background-color: #2829284e;
+    
+    padding: 2px;
+    
+    justify-content: space-between;
+    align-self: center;
+    /* font-family: "Francois One"; */
+
+  }
+
+  .nv_bar h1{
+    text-align: center;
+    
+    color: rgb(16, 15, 15);
+    font-size: large;
+  }
+
+  .but_delete{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    color: rgb(69, 67, 67);
+    background-color: #2627274e;
+    border-radius: 100px;
+    box-shadow: rgba(24, 24, 24, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 13px 13px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left : 90px;
+    }
+
+
+    .create input{
+        
+        padding: 6px 12px;
+        background: #1718174e;
+        border: 1px solid rgb(69, 69, 70);
+        border-radius: 4px;
+        font-size: 13px;
+        color: rgb(4, 4, 4);
+        height: 20px;
+        appearance: none;
+        transition: border 0.15s ease 0s; }
+        .create input:focus{
+            outline: none;
+            box-shadow: none;
+            border-color: rgb(18, 18, 19);
+        }
+    
+        .create button{
+            
+            display: inline-block;
+            outline: 0;
+            border: 0;
+            cursor: pointer;
+            will-change: box-shadow,transform;
+            background: radial-gradient( 100% 100% at 100% 0%, #363737 0%, #232326 100% );
+            box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+            padding: 0 32px;
+            border-radius: 6px;
+            color: #fff;
+            height: 34px;
+            font-size: 18px;
+            text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+            transition: box-shadow 0.15s ease,transform 0.15s ease;}
+            .create button:hover {
+                box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+                transform: translateY(-2px);
+            }
+            .create button:active{
+                box-shadow: inset 0px 3px 7px #3c4fe0;
+                transform: translateY(2px);
+            }
+            
+        
+   
+
+     .head_div img{
+   margin-left: 45%
+;     
+
+ }
+
+ #des{
+    margin-left: 75px;
+ }
+
+ #per{
+    margin-left : 87px;
+ }
+.up{
+    margin-left : 87px;
+}
+
